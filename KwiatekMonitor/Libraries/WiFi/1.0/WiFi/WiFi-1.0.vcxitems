@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8421dad2-62cf-4691-8c50-7b2cf2732289}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\ETH.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFi.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiAP.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiClient.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiGeneric.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiMulti.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiScan.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiServer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiSTA.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\WiFiUdp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ETH.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFi.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiAP.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiClient.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiGeneric.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiMulti.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiScan.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiServer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiSTA.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiType.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\WiFiUdp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+</Project>

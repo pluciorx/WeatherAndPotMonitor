@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KwiatekMonitor", "KwiatekMonitor\KwiatekMonitor.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KwiatekDisplay", "KwiatekDisplay\KwiatekDisplay.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneWire-2.3.5", "KwiatekMonitor\Libraries\OneWire\2.3.5\OneWire\OneWire-2.3.5.vcxitems", "{DFF50AC9-B091-42C0-A3F7-081181568CAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DallasTemperature-3.9.0", "KwiatekMonitor\Libraries\DallasTemperature\3.9.0\DallasTemperature\DallasTemperature-3.9.0.vcxitems", "{C0BA1933-C1E5-4638-8236-D38DBB3A41BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiFi-1.0", "KwiatekMonitor\Libraries\WiFi\1.0\WiFi\WiFi-1.0.vcxitems", "{8421DAD2-62CF-4691-8C50-7B2CF2732289}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThingSpeak-2.0.1", "KwiatekMonitor\Libraries\ThingSpeak\2.0.1\ThingSpeak\ThingSpeak-2.0.1.vcxitems", "{3B7298BF-0292-49EF-8334-969B31B12648}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18650CL-master-1.0.1", "KwiatekMonitor\Libraries\18650CL-master\1.0.1\18650CL-master\18650CL-master-1.0.1.vcxitems", "{507CC76A-77CD-4D41-BAED-B269C072F0B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adafruit_BME280_Library-2.1.4", "KwiatekMonitor\Libraries\Adafruit_BME280_Library\2.1.4\Adafruit_BME280_Library\Adafruit_BME280_Library-2.1.4.vcxitems", "{8828FA25-1E7D-4122-82BA-9CEF2487DDF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B065400B-DEB5-441A-BCD0-C40DB87FBFFC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		KwiatekMonitor\Libraries\ThingSpeak\2.0.1\ThingSpeak\ThingSpeak-2.0.1.vcxitems*{3b7298bf-0292-49ef-8334-969b31b12648}*SharedItemsImports = 9
+		KwiatekMonitor\Libraries\18650CL-master\1.0.1\18650CL-master\18650CL-master-1.0.1.vcxitems*{507cc76a-77cd-4d41-baed-b269c072f0b9}*SharedItemsImports = 9
+		KwiatekMonitor\Libraries\WiFi\1.0\WiFi\WiFi-1.0.vcxitems*{8421dad2-62cf-4691-8c50-7b2cf2732289}*SharedItemsImports = 9
+		KwiatekMonitor\Libraries\Adafruit_BME280_Library\2.1.4\Adafruit_BME280_Library\Adafruit_BME280_Library-2.1.4.vcxitems*{8828fa25-1e7d-4122-82ba-9cef2487ddf7}*SharedItemsImports = 9
+		KwiatekMonitor\Libraries\DallasTemperature\3.9.0\DallasTemperature\DallasTemperature-3.9.0.vcxitems*{c0ba1933-c1e5-4638-8236-d38dbb3a41bd}*SharedItemsImports = 9
+		KwiatekMonitor\Libraries\18650CL-master\1.0.1\18650CL-master\18650CL-master-1.0.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		KwiatekMonitor\Libraries\Adafruit_BME280_Library\2.1.4\Adafruit_BME280_Library\Adafruit_BME280_Library-2.1.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		KwiatekMonitor\Libraries\ThingSpeak\2.0.1\ThingSpeak\ThingSpeak-2.0.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		KwiatekMonitor\Libraries\WiFi\1.0\WiFi\WiFi-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		KwiatekMonitor\Libraries\OneWire\2.3.5\OneWire\OneWire-2.3.5.vcxitems*{dff50ac9-b091-42c0-a3f7-081181568cac}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
