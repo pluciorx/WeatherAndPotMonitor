@@ -1,5 +1,5 @@
 /*
-Name:		KwiatekMonitor ESP32 V/M/T/P
+Name:		KwiatekMonitor ESP8266 V/M/T/P
 Created:	22/04/2022 2:58:36 PM
 Author:		pluciorx@gmail.com
 Version: 1.0b
@@ -128,7 +128,7 @@ void updateIntTemp()
 	intTemperature = sensors.getTempCByIndex(0);
 	intTemperature = intTemperature - 5;
 	Serial.print(intTemperature);
-	Serial.println("ºC");
+	Serial.println("ÂºC");
 }
 
 void getWeatherData() 
